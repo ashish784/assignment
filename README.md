@@ -1,18 +1,27 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Portfolio Landing Page
 
-First, run the development server:
+A portfolio landing page replication based on a Figma design using Next.js and Tailwind CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Figma Design
+[Figma Design](https://www.figma.com/design/G3JZiOjVIultGuheCZ3uqR/Personal-Portfolio-Landing-Page-For-Free-(Community)?node-id=260-48&t=QFzrvrA7nG2A1sj6-0)
+
+## Live Demo
+[Live Demo](https://assignment-ten-orpin.vercel.app/)
+
+## Technologies Used
+- Next.js
+- React.js
+- Tailwind CSS
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+2. Run the Page on your localhost:
+   "npm run dev"   
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
