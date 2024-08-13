@@ -9,9 +9,9 @@ const Services = () => {
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          
+
           {/* UI/UX Design */}
-          <div className="bg-white p-6 rounded-lg shadow-sm text-left hover:shadow-lg transition-shadow flex flex-col items-start">
+          <div className="bg-white p-6 rounded-lg shadow-sm text-left hover:shadow-lg hover:border-orange-500 hover:border-2 transition-shadow flex flex-col items-start">
             <div className="text-orange-500 mb-4">
               <svg
                 className="w-10 h-10"
@@ -33,7 +33,7 @@ const Services = () => {
           </div>
 
           {/* Web Design */}
-          <div className="bg-white p-6 border-2 border-orange-500 rounded-lg shadow-sm text-left hover:shadow-lg transition-shadow flex flex-col items-start">
+          <div className="bg-white p-6 rounded-lg shadow-sm text-left hover:shadow-lg hover:border-orange-500 hover:border-2  flex flex-col items-start">
             <div className="text-orange-500 mb-4">
               <svg
                 className="w-10 h-10"
@@ -55,7 +55,7 @@ const Services = () => {
           </div>
 
           {/* App Design */}
-          <div className="bg-white p-6 rounded-lg shadow-sm text-left hover:shadow-lg transition-shadow flex flex-col items-start">
+          <div className="bg-white p-6 rounded-lg shadow-sm text-left hover:shadow-lg hover:border-orange-500 hover:border-2 transition-shadow flex flex-col items-start">
             <div className="text-orange-500 mb-4">
               <svg
                 className="w-10 h-10"
@@ -77,7 +77,7 @@ const Services = () => {
           </div>
 
           {/* Graphic Design */}
-          <div className="bg-white p-6 rounded-lg shadow-sm text-left hover:shadow-lg transition-shadow flex flex-col items-start">
+          <div className="bg-white p-6 rounded-lg shadow-sm text-left hover:shadow-lg hover:border-orange-500 hover:border-2 transition-shadow flex flex-col items-start">
             <div className="text-orange-500 mb-4">
               <svg
                 className="w-10 h-10"
