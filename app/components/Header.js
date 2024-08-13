@@ -37,7 +37,7 @@ const Header = () => {
   };
 
   return (
-    <header className={`bg-white shadow-md py-4 px-8 w-full ${isSticky ? 'fixed top-0 left-0 w-full z-50' : ''}`}>
+    <header className={`mx-auto bg-white shadow-md py-4 px-8 w-full ${isSticky ? 'fixed top-0 left-0 w-full z-50' : ''}`}>
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
           <Image src={Logo} alt="logo" className="w-auto" />
@@ -72,7 +72,7 @@ const Header = () => {
             {navLinks.map((item, index) => (
               <Link href={item.href} key={index} className="text-gray-600 font-medium text-xl cursor-pointer hover:underline" onClick={handleMenuToggle}>
 
-                  {item.name}
+                {item.name}
 
               </Link>
             ))}

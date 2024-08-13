@@ -14,7 +14,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#F8F8F8] text-black py-10">
+    <footer className="bg-[#F8F8F8] text-black py-10 w-full">
       <div className="container mx-auto text-center">
         <Image src={logo} alt="Logo" className="mx-auto mb-4 w-auto" />
         <ul className="flex flex-col justify-center sm:flex-row sm:space-x-8 space-y-4 sm:space-y-0 mb-8">
